@@ -28,6 +28,6 @@ IanAlert
 <p class="p1"><span class="s1">+(void)showLoading:(NSString *)string allowUserInteraction:(BOOL)allowUserInteraction;</span></p>
 <p class="p1"><span class="s1">// </span><span class="s2">隐藏</span><span class="s1">loading</span></p>
 <p class="p1"><span class="s1">+(void)hideLoading;</span></p>
-<p class="p3"><span class="s3">// </span><span class="s1">隐藏</span><span class="s3">loading </span><span class="s1">并在完成之后发送消息</span></p>
+<p class="p3"><span class="s3">// </span><span class="s1">隐藏</span><span class="s3">loading </span><span class="s1"> 并在完成之后发送消息 </span></p>
 
 <p class="p1"><span class="s1">+(void)hideLoading:(void(^)(BOOL finished))completion;</span></p>
