@@ -22,6 +22,10 @@ IanAlert
 - 12.隐藏loading
 - 13.隐藏loading 并在完成之后发送消息
 
+### 效果演示：
+<img src="https://coding.net/u/ianisme/p/IanAlert/git/raw/master/Demo.gif"  alt="效果展示by ian" height="568" width="320" />
+
+### 接口：
 ```
 // 弹出UIAlertView 标题 内容 确定按钮事件 取消按钮事件
 
