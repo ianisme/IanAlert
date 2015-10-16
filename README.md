@@ -2,7 +2,6 @@ IanAlert
 ========
 
 ### 说明：
-- 请star Github 以保证获得最新的代码
 - https://github.com/ianisme/IanAlert
 - 集成了最新版本的SVProgressHUD,首先要感谢原作者,给我们这么强大的一个库.本库集成了loading动画和Alert弹窗以及模态选项,使用起来比较方便.
 
