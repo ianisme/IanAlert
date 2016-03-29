@@ -22,7 +22,7 @@ IanAlert
 - 13.隐藏loading 并在完成之后发送消息
 
 ### 效果演示：
-<img src="https://coding.net/u/ianisme/p/IanAlert/git/raw/master/Demo.gif"  alt="效果展示by ian" height="568" width="320" />
+<img src="https://raw.githubusercontent.com/ianisme/IanAlert/master/Demo.gif"  alt="效果展示by ian" height="568" width="320" />
 
 ### 接口：
 ```
