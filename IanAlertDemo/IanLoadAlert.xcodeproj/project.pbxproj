@@ -19,6 +19,7 @@
 		3CBBEA981A272C8F005009DA /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CBBEA911A272C8F005009DA /* SVProgressHUD.bundle */; };
 		3CBBEA991A272C8F005009DA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBEA931A272C8F005009DA /* SVProgressHUD.m */; };
 		3CBBEA9A1A272C8F005009DA /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBBEA951A272C8F005009DA /* UIAlertView+Blocks.m */; };
+		79E9D8D41CBCFF5E00DA5865 /* XIAOQUQU.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9D8D31CBCFF5E00DA5865 /* XIAOQUQU.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3CBBEA931A272C8F005009DA /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		3CBBEA941A272C8F005009DA /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
 		3CBBEA951A272C8F005009DA /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		79E9D8D21CBCFF5E00DA5865 /* XIAOQUQU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIAOQUQU.h; sourceTree = "<group>"; };
+		79E9D8D31CBCFF5E00DA5865 /* XIAOQUQU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIAOQUQU.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 			children = (
 				3CBBEA671A272A43005009DA /* AppDelegate.h */,
 				3CBBEA681A272A43005009DA /* AppDelegate.m */,
+				79E9D8D21CBCFF5E00DA5865 /* XIAOQUQU.h */,
+				79E9D8D31CBCFF5E00DA5865 /* XIAOQUQU.m */,
 				3CBBEA6A1A272A43005009DA /* ViewController.h */,
 				3CBBEA6B1A272A43005009DA /* ViewController.m */,
 				3CBBEA891A272A61005009DA /* ViewController.xib */,
@@ -253,6 +258,7 @@
 			files = (
 				3CBBEA6C1A272A43005009DA /* ViewController.m in Sources */,
 				3CBBEA971A272C8F005009DA /* RIButtonItem.m in Sources */,
+				79E9D8D41CBCFF5E00DA5865 /* XIAOQUQU.m in Sources */,
 				3CBBEA961A272C8F005009DA /* IanAlert.m in Sources */,
 				3CBBEA691A272A43005009DA /* AppDelegate.m in Sources */,
 				3CBBEA9A1A272C8F005009DA /* UIAlertView+Blocks.m in Sources */,
@@ -440,6 +446,7 @@
 				3CBBEA851A272A43005009DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CBBEA861A272A43005009DA /* Build configuration list for PBXNativeTarget "IanLoadAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +455,7 @@
 				3CBBEA881A272A43005009DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
