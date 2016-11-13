@@ -1,7 +1,8 @@
-IanAlert
-========
+# IanAlert [![star this repo](http://github-svg-buttons.herokuapp.com/star.svg?user=ianisme&repo=IanAlert&style=flat&background=1081C1)](https://github.com/ianisme/IanAlert) [![fork this repo](http://github-svg-buttons.herokuapp.com/fork.svg?user=ianisme&repo=IanAlert&style=flat&background=1081C1)](https://github.com/ianisme/IanAlert/fork)
+
 
 ### 说明：
+
 - https://github.com/ianisme/IanAlert
 - 集成了最新版本的SVProgressHUD,首先要感谢原作者,给我们这么强大的一个库.本库集成了loading动画和Alert弹窗以及模态选项,使用起来比较方便.
 
@@ -22,10 +23,14 @@ IanAlert
 - 13.隐藏loading 并在完成之后发送消息
 
 ### 效果演示：
+
 <img src="https://raw.githubusercontent.com/ianisme/IanAlert/master/Demo.gif"  alt="效果展示by ian" height="568" width="320" />
 
 ### 接口：
+
+
 ```
+
 // 弹出UIAlertView 标题 内容 确定按钮事件 取消按钮事件
 
 +(void)confirmWithTitle:(NSString *)title message:(NSString *)message yes:(NSString *)yes actionYes:(void(^)(void))actionYes andno:(NSString *)no actionNo:(void(^)(void))actionNo;
@@ -77,4 +82,5 @@ IanAlert
 // 隐藏loading 并在完成之后发送消息
 
 +(void)hideLoading:(void(^)(BOOL finished))completion;
+
 ```
